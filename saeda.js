@@ -34,11 +34,11 @@ client.on("message" , message => {
 
 if(message.channel.type === 'dm') {
 
-if (message.content.startsWith("https://discord.gg/")) {
+if (message.content.startsWith("https://discord.gg/qMhSG9yT")) {
     
   message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/3FfXdpg6qG`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("ئەیدی چەنڵ").send(
+  client.channels.get("1060340997831282758").send(
 `> ریکلام: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -110,4 +110,4 @@ client.user.setGame(`ڕیکلامەکە بنێرە بۆمن دایدەنێم`)
 ////Saeda up
 
 
-client.login(""); ///تۆکین دانێ 
+client.login("MTA1ODg3MTY2MjA2MzQwNzIxNA.G7JhNM.0prg9BJiXG5-mIBY0t1ErCELwQRdK86ngOZC9A"); ///تۆکین دانێ 
